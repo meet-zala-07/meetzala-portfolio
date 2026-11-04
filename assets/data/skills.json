@@ -1,0 +1,46 @@
+[
+  {
+    "category": "Programming",
+    "items": [
+      { "name": "C", "status": "Academic + Project Use", "projects": ["singly-linked-list-in-c", "stack-operations-in-c", "queue-operations-in-c"] },
+      { "name": "Python", "status": "Used in Projects", "projects": ["python-tkinter-calculator", "number-game-in-python"] },
+      { "name": "Java", "status": "Academic Study", "projects": [] }
+    ]
+  },
+  {
+    "category": "Web Development",
+    "items": [
+      { "name": "HTML", "status": "Used in Projects", "projects": ["student-registration-form"] },
+      { "name": "CSS", "status": "Used in Projects", "projects": ["student-registration-form"] },
+      { "name": "JavaScript", "status": "Learning", "projects": [] }
+    ]
+  },
+  {
+    "category": "Database",
+    "items": [
+      { "name": "SQL", "status": "Academic Study", "projects": [] },
+      { "name": "MySQL", "status": "Academic Study", "projects": [] }
+    ]
+  },
+  {
+    "category": "Core Computer Science",
+    "items": [
+      { "name": "Data Structures & Algorithms", "status": "Academic + Project Use", "projects": ["singly-linked-list-in-c", "stack-operations-in-c", "queue-operations-in-c"] },
+      { "name": "Operating Systems", "status": "Academic Study", "projects": [] },
+      { "name": "Computer Networks", "status": "Academic Study", "projects": [] },
+      { "name": "RDBMS", "status": "Academic Study", "projects": [] }
+    ]
+  },
+  {
+    "category": "Tools / Development Environment",
+    "items": [
+      { "name": "Git", "status": "Used in Projects", "projects": [] },
+      { "name": "GitHub", "status": "Used in Projects", "projects": [] },
+      { "name": "Visual Studio Code", "status": "Used in Projects", "projects": [] },
+      { "name": "Code::Blocks", "status": "Used in Projects", "projects": [] },
+      { "name": "PyCharm", "status": "Used in Projects", "projects": [] },
+      { "name": "IDLE", "status": "Used in Projects", "projects": [] },
+      { "name": "SQL command-line tools", "status": "Academic Study", "projects": [] }
+    ]
+  }
+]

@@ -1,0 +1,163 @@
+/* ==========================================================================
+   DESIGN TOKENS
+   Single source of truth for color, type, spacing and geometry.
+   Change values here — never hard-code a color/size in a component file.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* ---- Color — Light (default) ---- */
+  --background: #fbfbfc;
+  --surface: #f3f4f6;
+  --surface-elevated: #ffffff;
+  --text-primary: #14181f;
+  --text-secondary: #5b6472;
+  --text-tertiary: #8891a0;
+  --border: #e2e5ea;
+  --border-strong: #cdd2d9;
+
+  --accent: #2f5fed;
+  --accent-hover: #1e49c9;
+  --accent-subtle: #eaf0ff;
+  --accent-contrast: #ffffff;
+
+  --success: #16843b;
+  --warning: #a35b00;
+  --error: #c42f2f;
+
+  --grid-line: rgba(20, 24, 31, 0.05);
+  --shadow-color: rgba(20, 24, 31, 0.08);
+
+  /* ---- Typography ---- */
+  --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --text-xs:   clamp(0.6875rem, 0.665rem + 0.1vw, 0.75rem);
+  --text-sm:   clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --text-base: clamp(0.9375rem, 0.9rem + 0.18vw, 1.0625rem);
+  --text-md:   clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem);
+  --text-lg:   clamp(1.1875rem, 1.1rem + 0.4vw, 1.375rem);
+  --text-xl:   clamp(1.375rem, 1.25rem + 0.6vw, 1.75rem);
+  --text-2xl:  clamp(1.75rem, 1.5rem + 1.1vw, 2.375rem);
+  --text-3xl:  clamp(2.125rem, 1.75rem + 1.8vw, 3.25rem);
+  --text-4xl:  clamp(2.5rem, 1.95rem + 2.6vw, 4.25rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+
+  /* ---- Spacing (fluid) ---- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: clamp(1.5rem, 1.3rem + 1vw, 2.25rem);
+  --space-8: clamp(2rem, 1.6rem + 2vw, 3.5rem);
+  --space-10: clamp(2.75rem, 2.1rem + 3vw, 5rem);
+  --space-section: clamp(3.5rem, 2.5rem + 5vw, 7.5rem);
+
+  --header-height: 70px; /* fallback; nav.js sets this to the header's real measured height */
+  --content-max: 1240px;
+  --content-narrow: 760px;
+  --gutter: clamp(1.25rem, 1rem + 2vw, 3rem);
+
+  /* ---- Geometry ---- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+  --border-w: 1px;
+
+  --shadow-sm: 0 1px 2px var(--shadow-color);
+  --shadow-md: 0 4px 16px var(--shadow-color);
+
+  /* ---- Motion ---- */
+  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --dur-fast: 120ms;
+  --dur-base: 220ms;
+  --dur-slow: 420ms;
+}
+
+/* ---- Color — Dark ---- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --background: #0b0d10;
+    --surface: #121519;
+    --surface-elevated: #171a1f;
+    --text-primary: #e9ebef;
+    --text-secondary: #9aa3af;
+    --text-tertiary: #6b7280;
+    --border: #262b32;
+    --border-strong: #363c45;
+
+    --accent: #5a8dff;
+    --accent-hover: #7ea3ff;
+    --accent-subtle: rgba(90, 141, 255, 0.12);
+    --accent-contrast: #0b0d10;
+
+    --success: #3fcf71;
+    --warning: #e3a13a;
+    --error: #f0695f;
+
+    --grid-line: rgba(233, 235, 239, 0.06);
+    --shadow-color: rgba(0, 0, 0, 0.45);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0b0d10;
+  --surface: #121519;
+  --surface-elevated: #171a1f;
+  --text-primary: #e9ebef;
+  --text-secondary: #9aa3af;
+  --text-tertiary: #6b7280;
+  --border: #262b32;
+  --border-strong: #363c45;
+
+  --accent: #5a8dff;
+  --accent-hover: #7ea3ff;
+  --accent-subtle: rgba(90, 141, 255, 0.12);
+  --accent-contrast: #0b0d10;
+
+  --success: #3fcf71;
+  --warning: #e3a13a;
+  --error: #f0695f;
+
+  --grid-line: rgba(233, 235, 239, 0.06);
+  --shadow-color: rgba(0, 0, 0, 0.45);
+}
+
+/* ---- Reset ---- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color var(--dur-base) var(--ease), color var(--dur-base) var(--ease);
+}
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, h4, p { margin: 0; }
+input, select { font: inherit; }
+
+/* No-flash theme boot handles visibility; see inline head script in HTML */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

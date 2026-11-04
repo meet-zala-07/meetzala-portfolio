@@ -1,0 +1,82 @@
+{
+  "owner": {
+    "name": "Meet Zala",
+    "monogram": "MZ_",
+    "title": "Computer Engineering Student · Aspiring Software Developer",
+    "location": "India"
+  },
+
+  "hero": {
+    "headline": "From Fundamentals to Building Software.",
+    "description": "Computer Engineering student focused on programming, computer science fundamentals, and practical software development — learning concepts deeply and applying them through projects to build useful software that solves real problems and makes everyday tasks easier.",
+    "primaryCta": { "label": "Explore My Work", "target": "#projects" },
+    "secondaryCta": { "label": "View Resume" },
+    "status": "Open to Learning & Internship Opportunities",
+    "currently": "Studying Computer Engineering · Building Software Projects",
+    "focus": [
+      "Software Development",
+      "Programming & Problem Solving",
+      "Data Structures & Algorithms",
+      "Web Development"
+    ]
+  },
+
+  "about": {
+    "intro": "A short look at how Meet is developing as an engineer — not a repeat of the introduction above.",
+    "pillars": [
+      {
+        "label": "FOUNDATION",
+        "text": "Computer Engineering student developing a strong foundation in programming and core computer science."
+      },
+      {
+        "label": "APPROACH",
+        "text": "Understand concepts, then apply them through practical implementation and projects."
+      },
+      {
+        "label": "DIRECTION",
+        "text": "Grow as a software developer and build useful, reliable software that solves practical problems."
+      }
+    ],
+    "profile": [
+      { "label": "FIELD", "value": "Computer Engineering" },
+      { "label": "FOCUS", "value": "Software Development" },
+      { "label": "INTERESTS", "value": "Programming · Web · Problem Solving" },
+      { "label": "APPROACH", "value": "Learn → Build → Improve" }
+    ]
+  },
+
+  "social": {
+    "github": "https://github.com/meet-zala-07",
+    "linkedin": "https://www.linkedin.com/in/zala-meet-m-43bba13b8",
+    "email": "meetsoftwaredeveloper@gmail.com",
+    "codingChannel": "https://whatsapp.com/channel/0029VbCg7tm77qVNIB9v5W21"
+  },
+
+  "contact": {
+    "heading": "Let's Connect.",
+    "description": "Open to internship opportunities, collaboration, and conversations about software, systems and learning in public."
+  },
+
+  "nav": {
+    "groups": {
+      "journey": ["education", "experience", "academics"],
+      "work": ["skills", "projects", "certifications", "achievements"],
+      "knowledge": ["documents", "notes"]
+    }
+  },
+
+  "sections": {
+    "home":           { "number": "01", "category": "PROFILE" },
+    "about":           { "number": "02", "category": "PROFILE" },
+    "education":       { "number": "03", "category": "JOURNEY" },
+    "experience":       { "number": "04", "category": "JOURNEY" },
+    "skills":           { "number": "05", "category": "WORK" },
+    "projects":         { "number": "06", "category": "WORK" },
+    "certifications":   { "number": "07", "category": "WORK" },
+    "achievements":     { "number": "08", "category": "WORK" },
+    "academics":        { "number": "09", "category": "JOURNEY" },
+    "documents":        { "number": "10", "category": "KNOWLEDGE" },
+    "notes":            { "number": "11", "category": "KNOWLEDGE" },
+    "contact":          { "number": "12", "category": "CONNECT" }
+  }
+}

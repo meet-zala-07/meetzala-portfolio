@@ -1,0 +1,28 @@
+{
+  "programs": [
+    {
+      "program": "Diploma in Computer Engineering",
+      "institution": "AVPTI",
+      "semesters": [
+        {
+          "semester": 1,
+          "spi": 9.81,
+          "cpi": 9.81,
+          "backlogs": 0,
+          "status": "Completed",
+          "resultFile": "",
+          "subjects": []
+        },
+        {
+          "semester": 2,
+          "spi": 10.00,
+          "cpi": 9.90,
+          "backlogs": 0,
+          "status": "Completed",
+          "resultFile": "",
+          "subjects": []
+        }
+      ]
+    }
+  ]
+}

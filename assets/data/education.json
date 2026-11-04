@@ -1,0 +1,28 @@
+[
+  {
+    "id": "edu-001",
+    "qualification": "Diploma in Computer Engineering (CE)",
+    "field": "Computer Engineering",
+    "institution": "AVPTI",
+    "board": "Gujarat Technological University (GTU)",
+    "startYear": "2025",
+    "endYear": "2028",
+    "status": "Currently Pursuing",
+    "location": "India",
+    "description": "A three-year diploma program in Computer Engineering, affiliated with Gujarat Technological University (GTU), covering programming, computer science fundamentals and practical software development."
+  },
+  {
+    "id": "edu-002",
+    "qualification": "Secondary Education (SSC)",
+    "field": "",
+    "institution": "New Shreyash Vidhyalaya",
+    "board": "GSEB",
+    "startYear": "",
+    "endYear": "2025",
+    "status": "Completed",
+    "location": "India",
+    "description": "Completed Secondary Education (SSC) under GSEB in 2025, securing 555/600 marks. Result: Qualified.",
+    "result": "92.50% · 97.88 Percentile",
+    "grade": "A1"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cert-001",
+    "title": "Introduction to Generative AI",
+    "issuer": "Google Cloud",
+    "issueDate": "2026-10",
+    "category": "Badges",
+    "skills": ["Generative AI"],
+    "credentialId": "",
+    "verifyUrl": "https://www.skills.google/public_profiles/f78f6724-71f4-4d32-aac2-57fcda6987ed/badges/29114811?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    "file": "",
+    "featured": true
+  },
+  {
+    "id": "cert-002",
+    "title": "EF SET English Certificate — B1 Intermediate",
+    "issuer": "EF SET",
+    "issueDate": "2026-10",
+    "category": "Assessment",
+    "score": "41/100",
+    "level": "B1 Intermediate",
+    "subscores": {
+      "reading": { "score": 34, "level": "A2" },
+      "listening": { "score": 36, "level": "A2" },
+      "writing": { "score": 45, "level": "B1" },
+      "speaking": { "score": 48, "level": "B1" }
+    },
+    "skills": ["English Proficiency"],
+    "credentialId": "",
+    "verifyUrl": "",
+    "file": "",
+    "featured": true
+  },
+  {
+    "id": "cert-003",
+    "title": "Career Guidance Session",
+    "issuer": "Grad Guru Innovation",
+    "issueDate": "2026-03",
+    "category": "Webinar",
+    "skills": ["Career Guidance"],
+    "credentialId": "",
+    "verifyUrl": "",
+    "file": "",
+    "featured": false
+  },
+  {
+    "id": "cert-004",
+    "title": "TechnoSpark 2026 — BitCode Battle",
+    "issuer": "Christ Polytechnic Institute, Rajkot",
+    "issueDate": "2026-02",
+    "category": "Competition",
+    "skills": ["State Level Tech Fest", "Participation"],
+    "credentialId": "",
+    "verifyUrl": "",
+    "file": "",
+    "featured": false
+  }
+]
